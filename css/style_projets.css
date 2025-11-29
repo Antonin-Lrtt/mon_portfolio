@@ -1,0 +1,62 @@
+/*Style qui s'applique au header*/
+.site-top p{
+    color:  white;
+    text-align: center;
+    font-size: x-large;
+}
+
+/*Style dans le main*/
+.site-content h1{
+    text-align: center;
+}
+
+.site-content h2 {
+    padding-left: 20px;
+}
+
+.semestre_1 {
+    display: grid;
+    height: auto;
+    align-content: center;
+    gap: 10px;
+    grid-template-areas:
+    "motus azul web";
+}
+
+.interne_grille {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Style qui s'applique au bloc de motus*/
+.motus img {
+    max-width: 50%;
+    border-radius: 20px;
+    border: 1px solid black;
+    transition: width 1s ease;
+}
+
+/*Style qui s'applique au bloc du azul*/
+.azul img {
+    max-width: 50%;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+/*Style qui s'applique au bloc Portfolio*/
+.web img {
+    max-width: 50%;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+/*Style qui s'applique à l'intérieur des blocs*/
+.interne_grille p {
+    font-size: x-large;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 5%;
+    background-color: white;
+}

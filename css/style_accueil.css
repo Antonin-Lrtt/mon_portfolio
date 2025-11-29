@@ -1,0 +1,63 @@
+/*Style qui s'applique au bloc inrtoductif de la page*/
+.bloc_intro {
+    background-color: rgb(206, 206, 206);
+    border: 3px solid black;
+    border-radius: 20px;
+    padding: 1.5%;
+    transition: border 2.5s ease-out;
+    margin: 1%;
+}
+
+.bloc_intro:hover {
+    border: 3px solid rgb(206, 206, 206);
+    transition: border 1.25s ease-out;
+}
+
+.intro {
+    text-align: center;
+    color: black;
+    background-image: linear-gradient(rgb(200, 200, 200), rgb(150, 150, 150));
+    border-radius: 10px;
+    border: 1px solid rgb(140, 140, 140);
+    padding: 1%;
+    margin: auto;
+}
+
+/*Style qui s'applique au menu de la pages*/
+.menu ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.menu li {
+    list-style-type: none;
+    padding: 2.5%;
+}
+
+.menu a {
+    padding: 4%;
+    color: black;
+    transition: color 1.5s ease;
+    color: black;
+    background-image: linear-gradient(rgb(200, 200, 200), rgb(150, 150, 150));
+    border-radius: 10px;
+    border: 1px solid rgb(140, 140, 140);
+}
+
+.menu a:hover {
+    color: rgb(222, 222, 222);
+    transition: color 0.75s ease;
+}
+
+.menu a:active {
+    color: white;
+    transition: color 0.75s ease;
+}
+
+/*Style qui s'applique au header*/
+.site-top p{
+    color:  white;
+    text-align: center;
+    font-size: x-large;
+}

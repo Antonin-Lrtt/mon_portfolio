@@ -1,0 +1,94 @@
+/*Style qui s'applique à toute la page*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Futura;
+}
+
+/*Style qui s'applique au header*/
+
+.site-top {  
+    border-bottom: 3px solid black;
+    background-image: linear-gradient(rgb(28, 28, 28),rgb(68, 68, 68));
+}
+
+/*Style qui s'applique sur la mise en tête*/
+
+.site-top h1 {
+    size: 25vw;
+    text-align: center;
+    color: white;
+    padding: 2%;
+}
+
+/*Style qui s'applique au main*/
+
+.site-content {
+    display: flex;
+    height: auto;
+    width: auto;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: wrap;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 20%;
+}
+
+/*Style qui s'applique au footer*/
+
+.site-bottom {
+    display: table-row;
+    margin-top: 5%;
+    color: rgb(48, 48, 48);
+    position: absolute; bottom: 0; left: 0; right: 0;
+    background-image: linear-gradient(rgb(68, 68, 68), rgb(28, 28, 28));
+    padding: 1%;
+    border-top: 3px solid black;
+}
+
+.site-bottom p{
+    color: white;
+    text-align: center;
+}
+
+.site-bottom a {
+    color: white;
+    transition: color 2s ease;
+}
+
+.site-bottom a:hover {
+    color: red;
+    transition: color 1s ease;
+}
+
+.site-bottom a:active {
+    color: darkred;
+    transition: color 1s ease;
+}
+
+.site-bottom div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.site-bottom img {
+    padding-right: 3.5vw;
+    width: 4vw;
+    border-radius: 10px;
+}
+
+/*Style qui s'applique sur body */
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(rgb(68,68,68 ),rgb(237, 237, 237), rgb(68,68,68));
+    position: relative;
+    font-family: "DM serif Text", serif, Verdana, Tahoma, sans-serif;
+}

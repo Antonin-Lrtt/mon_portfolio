@@ -1,0 +1,79 @@
+.site-top p{
+    color:  white;
+    text-align: center;
+    font-size: x-large;
+}
+
+.blocs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: wrap;
+}
+
+/*Style qui s'applique au niveau de l'image*/
+.presentation {
+    text-align: center;
+}
+
+.presentation img {
+    margin: 1%;
+    border-radius: 10px;
+    width: 100%;
+}
+
+/*Style qui s'applqiue à la description*/
+.description {
+    margin: 1%;
+}
+
+/*Style qui s'applique aux Objectifs*/
+.objectifs {
+    margin: 1%;
+}
+
+.objectifs  ul {
+    margin-left: 5%;
+}
+
+/*Style qui s'applique aux Compétences*/
+.competences {
+    margin: 1%;
+}
+
+.competences ul {
+    margin-left: 5%;
+}
+
+/*Style qui s'applique à resultat*/
+.resultat {
+    margin: 1%;
+}
+/*Style qui s'applique aux buttons*/
+
+.bouton {
+    display: flex;
+    flex-direction: row;
+    gap: 1%;
+}
+
+button {
+    border-radius: 10px;
+    padding: 1%;
+    background-color: rgb(120, 120, 120);
+    transition: background-color 1s ease;
+}
+
+button a {
+    color: white;
+}
+
+button:hover {
+    background-color: rgb(190, 190, 190);
+    transition: background-color 0.5s ease;
+
+}
+
+button a:hover {
+    color: black;
+}

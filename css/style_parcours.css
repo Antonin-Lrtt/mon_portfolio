@@ -1,0 +1,176 @@
+.site-top p{
+    color:  white;
+    text-align: center;
+    font-size: x-large;
+    transition: color 1.5s ease;
+}
+
+.site-content #titre{
+    align-items: center;
+    margin-right: auto; 
+    margin-left: auto;
+    text-align: center;
+    color: rgb(206, 206, 206);
+    transition: color 1.5s ease;
+}
+
+.site-content #titre:hover {
+    color: red;
+    transition: color 0.75s ease;
+}
+
+/*Primaires*/
+.primaires {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: left;
+}
+
+/*Ferdinand Buisson*/
+.ferdinand {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+    background-color: rgb(130, 130, 130);
+    border: 2px solid black;
+    border-radius: 10px;
+
+}
+
+.ferdinand p {
+    padding: 1%;
+    font-size: x-large;
+    background-color: rgb(230, 230, 230);
+    border: 2px solid black;
+    border-radius: 10px;
+    
+}
+
+.ferdinand img {
+    max-width: 50%;
+    min-width: 35%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+    
+
+/*Immaculée*/
+.immaculee{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2%;
+    background-color: rgb(130, 130, 130);
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.immaculee p {
+    padding-left: 1%;
+    font-size: x-large;
+    background-color: rgb(230, 230, 230);
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.immaculee img {
+    max-width: 50%;
+    min-width: 35%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+/*College*/
+.college {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2%;
+    background-color: rgb(130, 130, 130);
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.college p {
+    padding-left: 1%;
+    font-size: x-large;
+    background-color: rgb(230, 230, 230);
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.college img{
+    max-width: 75%;
+    min-width: 35%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+/*Lycée*/
+.lycee {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+    gap: 15%;
+    background-color: rgb(130, 130, 130);
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.lycee p {
+    padding-left: 1%;
+    font-size: x-large;
+    background-color: rgb(230, 230, 230);
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.lycee img {
+    max-width: 140%;
+    min-width: 35%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+/*Université*/
+.ulco {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+    gap: 20%;
+    background-color: rgb(130, 130, 130);
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.ulco p {
+    padding-left: 1%;
+    font-size: x-large;
+    background-color: rgb(230, 230, 230);
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.ulco img {
+    max-width: 175%;
+    min-width: 35%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 20px;
+    border: 1px solid black;
+}
