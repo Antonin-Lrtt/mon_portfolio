@@ -95,7 +95,6 @@ body {
     flex-direction: column;
     background-image: linear-gradient(rgb(68,68,68 ),rgb(237, 237, 237), rgb(68,68,68));
     position: relative;
-    font-family: "DM serif Text", serif, Verdana, Tahoma, sans-serif;
 }
 @media (min-width: 1201px) {
     .site-top {
