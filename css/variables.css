@@ -30,11 +30,10 @@
     width: auto;
     flex-direction: column;
     justify-content: space-between;
-    flex: wrap;
-    margin-top: 5%;
+    margin-top: 2.5%;
     margin-left: 10%;
     margin-right: 10%;
-    margin-bottom: 20%;
+    margin-bottom: 10%;
 }
 
 /*Style qui s'applique au footer*/
@@ -75,10 +74,16 @@
     justify-content: center;
 }
 
-.site-bottom img {
+.site-bottom i {
     padding-right: 3.5vw;
-    width: 4vw;
+    font-size: 400%;
     border-radius: 10px;
+    margin: 5%;
+    margin-bottom: 10%;
+}
+
+.site-bottom i:hover {
+    transform: scale(1.2);
 }
 
 /*Style qui s'applique sur body */
@@ -91,4 +96,77 @@ body {
     background-image: linear-gradient(rgb(68,68,68 ),rgb(237, 237, 237), rgb(68,68,68));
     position: relative;
     font-family: "DM serif Text", serif, Verdana, Tahoma, sans-serif;
+}
+@media (min-width: 1201px) {
+    .site-top {
+        height: 5%;
+    }
+
+    .site-content {
+        margin-top: 5%;
+        height: 30%;
+        margin-bottom: 15%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .site-bottom {
+        height: 7%;
+    }
+}
+
+
+@media (min-width: 901px) and (max-width: 1200px) {
+    .site-top {
+        height: 5%;
+    }
+
+    .site-content {
+        margin-top: 10%;
+        height: 30%;
+        margin-bottom: 20%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .site-bottom {
+        height: 7%;
+    }
+}
+
+
+@media (min-width: 601px) and (max-width: 900px) {
+    .site-top {
+        height: 5%;
+    }
+
+    .site-content {
+        margin-top: 10%;
+        height: 30%;
+        margin-bottom: 25%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .site-bottom {
+        height: 7%;
+    }
+}
+
+@media (max-width: 600px) {
+    .site-top {
+        height: 10%;
+    }
+
+    .site-content {
+        margin-top: 10%;
+        height: 30%;
+        margin-bottom: 25%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .site-bottom {
+        height: 7%;
+    }
 }

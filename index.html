@@ -7,13 +7,22 @@
     <link rel="stylesheet" href="css/style_accueil.css">
     <link rel="stylesheet" href="css/variables.css">
     <link rel="stylesheet" href="css/style.css">
+
+    <!-- Police d'écriture -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap" rel="stylesheet">
+
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <title>Accueil</title>
 </head>
 
 <body>
     <header class="site-top" id="haut-page">
-        <h1><u>Portfolio de Leurette Antonin</u></h1>
-        <p><strong>| Accueil |</strong></p>
+        <h1 class="dm-serif-italic"><u>Portfolio de Leurette Antonin</u></h1>
+        <p class="dm-serif-regular"><strong>| Accueil |</strong></p>
         <br>
         <hr>
         <hr>
@@ -21,10 +30,10 @@
         <nav>
             <div class="links">
                 <ul>
-                    <li><a href="index.html">| Accueil |</a></li>    
-                    <li><a href="pages/parcours.html">| Parcours |</a></li>
-                    <li><a href="pages/contact.html">| Contact |</a></li>
-                    <li><a href="pages/projets.html">| Projets |</a></li>
+                    <li><a href="index.html" class="dm-serif-regular">| Accueil |</a></li>    
+                    <li><a href="pages/parcours.html" class="dm-serif-regular">| Parcours |</a></li>
+                    <li><a href="pages/contact.html" class="dm-serif-regular">| Contact |</a></li>
+                    <li><a href="pages/projets.html" class="dm-serif-regular">| Projets |</a></li>
                 </ul>
             </div>
         </nav>
@@ -37,9 +46,9 @@
         <nav>
             <article class="menu">
                 <ul>
-                    <li><a href="#about" class="texte">Informations</a></li>
-                    <li><a href="#skills" class="texte">Compétences</a></li>
-                    <li><a href="#formations" class="texte">Formations</a></li>
+                    <li><a href="#about" class="dm-serif-regular">Informations</a></li>
+                    <li><a href="#skills" class="dm-serif-regular">Compétences</a></li>
+                    <li><a href="#formations" class="dm-serif-regular">Formations</a></li>
                 </ul>
             </article>
         </nav>
@@ -49,7 +58,7 @@
 
         <!-- Informations-->
         <section class="blocs" id="about">
-            <br><h1><u>Informations :</u></h1><br>
+            <br><h1 class="dm-serif-italic"><i class="fa-solid fa-circle-info"></i>- <u> Informations :</u></h1><br>
             <p class="texte">Je suis un étudiant en L1 info à l'université Ulco de Calais, 
                 j'y apprend les fondamentaux du développement web (HTML, CSS, etc), mais également 
                 python et l'architecture matérielle.</p><br>
@@ -59,7 +68,7 @@
         
         <!-- Compétences -->
         <br><section class="blocs" id="skills"><br>
-            <h1><u>Compétences :</u></h1><br>
+            <h1 class="dm-serif-italic"><i class="fa-solid fa-person"></i>- <u> Compétences :</u></h1><br>
             <ul class="liste">
                 <li><p class="texte">HTML</p></li>
                 <li><p class="texte">CSS</p></li>
@@ -73,7 +82,7 @@
         
          <!-- Formations -->
         <br><section class="blocs" id="formations"><br>
-            <h1><u>Formations :</u></h1><br>
+            <h1 class="dm-serif-italic"><i class="fa-solid fa-school"></i> - <u>Formations :</u></h1><br>
             <p class="texte"></p>
             <ul  class="liste">
                 <li><p class="texte"><strong>Licence1 Informatique</strong> | 2025-2026 • <a href="https://www.univ-littoral.fr/" target="_blank">Ulco</a></p></li>
@@ -82,14 +91,12 @@
     </main>
 
     <footer class="site-bottom">
-        <br>
         <div>
-            <a href="https://www.instagram.com" target="_blank"><img src="images/Logo/logo-instagram.jpg" alt="logo_instagram"></a>
-            <a href="https://www.tiktok.com" target="_blank"><img src="images/Logo/logo-tiktok.jpg" alt="Logo_Tik-Tok"></a>
-            <a href="https://www.snapchat.com/fr-FR" target="_blank"><img src="images/Logo/logo-snapchat.jpg" alt="Logo_Snapchat"></a>
+            <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.tiktok.com" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="https://www.snapchat.com/fr-FR" target="_blank"><i class="fa-brands fa-snapchat"></i></a>
         </div>
-        <br>
-        <p>&copy; 2025 <strong>Leurette Antonin</strong>. Tous droits réservés. | <a href="#haut-page">Haut de page</a></p>
+        <p class="dm-serif-italic">&copy; 2025 <strong>Leurette Antonin</strong>. Tous droits réservés. | <a href="#haut-page">Haut de page</a></p>
     </footer>
 </body>
 </html>

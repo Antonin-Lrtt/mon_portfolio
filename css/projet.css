@@ -4,11 +4,22 @@
     font-size: x-large;
 }
 
-.blocs {
+.site-content {
+    align-items: center;
+}
+
+.blocs_projet {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    flex: wrap;
+    background-image: linear-gradient(rgb(206, 206, 206),rgb(206, 206, 206));
+    border: 3px solid black;
+    border-radius: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 2%;
+    transition: border 2.5s ease-out;
+    max-width: 35%;
 }
 
 /*Style qui s'applique au niveau de l'image*/
@@ -19,7 +30,7 @@
 .presentation img {
     margin: 1%;
     border-radius: 10px;
-    width: 100%;
+    width: 50%;
 }
 
 /*Style qui s'applqiue à la description*/
@@ -66,6 +77,7 @@ button {
 
 button a {
     color: white;
+    transition: color 0.5s ease;
 }
 
 button:hover {
@@ -76,4 +88,77 @@ button:hover {
 
 button a:hover {
     color: black;
+    transition: color 0.25s ease;
+}
+
+@media (min-width: 1201px) {
+    .site-top {
+        height: 10%;
+    }
+
+    .site-content {
+        margin-top: 10%;
+        height: 30%;
+        margin-bottom: 10%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .site-bottom {
+        height: 6%;
+    }
+}
+
+@media (min-width: 901px) and (max-width: 1200px) {
+    .site-top {
+        height: 10%;
+    }
+
+    .site-content {
+        margin-top: 10%;
+        height: 30%;
+        margin-bottom: 15%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .site-bottom {
+        height: 6%;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+    .site-top {
+        height: 10%;
+    }
+
+    .site-content {
+        margin-top: 5%;
+        height: 25%;
+        margin-bottom: 20%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .site-bottom {
+        height: 6%;
+    }
+}
+
+@media (max-width: 600px) {
+    .site-top {
+        height: 10%;
+    }
+
+    .site-content {
+        margin-top: 5%;
+        height: 30%;
+        margin-bottom: 15%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .site-bottom {
+        height: 6%;
+    }
 }

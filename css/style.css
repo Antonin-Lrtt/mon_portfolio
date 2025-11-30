@@ -3,6 +3,18 @@
     font-size: x-large;
 }
 
+/*Police d'écriture*/
+.dm-serif-regular {
+    font-family: "DM Serif Text", serif;
+    font-style: normal;
+    font-size: x-large
+}
+
+.dm-serif-italic {
+    font-family: "DM Serif Text", serif;
+    font-style: italic;
+}
+
 /*tyle qui s'applique sur les listes*/
 .liste {
     padding-left: 10%;
@@ -13,15 +25,17 @@
     background-image: linear-gradient(rgb(206, 206, 206),rgb(206, 206, 206));
     border: 3px solid black;
     border-radius: 20px;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
     padding: 2%;
-    transition: border 2.5s ease-out;
+    transform: scale(0.8);
+    transition: border 2.5s ease-out, transform 0.5s ease;
 }
 
 .blocs:hover{
     border: 3px solid rgb(206, 206, 206);
-    transition: border 1.25s ease-out;
+    transform: scale(1);
+    transition: border 1.25s ease-out, transform 0.25s ease;
 }
 
 /*Style qui s'applique sur la sélection des pages*/
@@ -39,6 +53,12 @@
 .links li {
     list-style-type: none;
     padding: 1.5%;
+    transition: transform 0.5s ease;
+}
+
+.links li:hover {
+    transform: scale(1.25);
+    transition: transform 0.25s ease;
 }
 
 .links a {
@@ -65,4 +85,35 @@
     color: darkred;
     background-image: linear-gradient(darkred, darkred);
     transition: color 1s ease, backgraound 0.75s ease;
+}
+    
+
+@media (min-width: 601px) and (max-width: 900px) {
+    .blocs {
+        background-image: linear-gradient(rgb(206, 206, 206),rgb(206, 206, 206));
+        border: 3px solid black;
+        border-radius: 20px;
+        padding: 2%;
+        transform: scale(1);
+        transition: border 2.5s ease-out, transform 0.5s ease;
+    }
+
+    .blocs:hover{
+        border: 3px solid rgb(206, 206, 206);
+        transform: scale(1.1);
+        transition: border 1.25s ease-out, transform 0.25s ease;
+}
+
+
+}
+
+@media (max-width: 600px) {
+    .blocs {
+        background-image: linear-gradient(rgb(206, 206, 206),rgb(206, 206, 206));
+        border: 3px solid black;
+        border-radius: 20px;
+        padding: 2%;
+        transform: scale(0.8);
+        transition: border 2.5s ease-out, transform 0.5s ease;
+    }
 }

@@ -33,6 +33,12 @@
 .menu li {
     list-style-type: none;
     padding: 2.5%;
+    transition: transform 0.5s ease;
+}
+
+.menu li:hover {
+    transform: scale(1.2);
+    transition: transform 0.25s ease;
 }
 
 .menu a {
@@ -61,3 +67,4 @@
     text-align: center;
     font-size: x-large;
 }
+

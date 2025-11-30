@@ -7,22 +7,31 @@
     <link rel="stylesheet" href="../css/variables.css">
     <link rel="stylesheet" href="../css/style_contact.css">
     <link rel="stylesheet" href="../css/style.css">
+
+    <!-- Police d'écriture -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap" rel="stylesheet">
+    
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <title>Contact</title>
 </head>
 
 <body>
     <header class="site-top" id="haut-page">
-        <h1><u>Portfolio de Leurette Antonin</u></h1>
-        <p><strong>| Contact |</strong></p>
+        <h1 class="dm-serif-italic"><u>Portfolio de Leurette Antonin</u></h1>
+        <p class="dm-serif-regular"><strong>| Contact |</strong></p>
         <br>
         <hr>
         <nav>
             <div class="links">
                 <ul>
-                    <li><a href="../index.html">| Accueil |</a></li>
-                    <li><a href="parcours.html">| Parcours |</a></li>
-                    <li><a href="contact.html">| Contact |</a></li>
-                    <li><a href="projets.html">| Projets |</a></li>
+                    <li><a href="../index.html" class="dm-serif-regular">| Accueil |</a></li>
+                    <li><a href="parcours.html" class="dm-serif-regular">| Parcours |</a></li>
+                    <li><a href="contact.html" class="dm-serif-regular">| Contact |</a></li>
+                    <li><a href="projets.html" class="dm-serif-regular">| Projets |</a></li>
                 </ul>
             </div>
         </nav>
@@ -30,7 +39,7 @@
 
     <main class="site-content"><br>
         <section class="blocs">
-            <h1><u>Mes réseaux :</u></h1>
+            <h1 class="dm-serif-italic"><u>Mes réseaux :</u></h1>
             <br>
             <ul>
                 <li><p><strong>Email : </strong><a href="https://ent.univ-littoral.fr/uPortal/f/welcome/normal/render.uP" target="_blank">antonin.leurette@etu.univ-littoral.fr</a></p></li>
@@ -44,7 +53,7 @@
         <br>
 
         <section class="blocs">
-            <p class="texte">Pour prendre contact avec moi depuis mon Portfolio
+            <p class="dm-serif-regular">Pour prendre contact avec moi depuis mon Portfolio
                 veuillez remplir le formulaire suivant :
             </p>
 
@@ -118,28 +127,26 @@
 
                 <br>
 
-                <label for="message">Message :</label>
+                <label for="message" class="dm-serif-regular">Message :</label>
                 <textarea name="message" rows="10" cols="150" id="message"></textarea>
                 
                 <br>
 
                 <div>
-                    <button type="submit">Valider</button>
-                    <button type="reset">Effacer</buttontype>
+                    <button type="submit" class="dm-serif-italic">Valider</button>
+                    <button type="reset" class="dm-serif-italic">Effacer</buttontype>
                 </div>
             </form>
         </section>
     </main>
 
     <footer class="site-bottom">
-        <br>
         <div>
-            <a href="https://www.instagram.com" target="_blank"><img src="../images/Logo/logo-instagram.jpg" alt="logo_instagram"></a>
-            <a href="https://www.tiktok.com" target="_blank"><img src="../images/Logo/logo-tiktok.jpg" alt="Logo_Tik-Tok"></a>
-            <a href="https://www.snapchat.com/fr-FR" target="_blank"><img src="../images/Logo/logo-snapchat.jpg" alt="Logo_Snapchat"></a>
+            <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.tiktok.com" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="https://www.snapchat.com/fr-FR" target="_blank"><i class="fa-brands fa-snapchat"></i></a>
         </div>
-        <br>
-        <p>&copy; 2025 <strong>Leurette Antonin</strong>. Tous droits réservés. | <a href="#haut-page">Haut de page</a></p>
+        <p class="dm-serif-italic">&copy; 2025 <strong>Leurette Antonin</strong>. Tous droits réservés. | <a href="#haut-page">Haut de page</a></p>
     </footer>
 </body>
 </html>
