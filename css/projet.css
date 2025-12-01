@@ -8,20 +8,6 @@
     align-items: center;
 }
 
-.blocs_projet {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    background-image: linear-gradient(rgb(206, 206, 206),rgb(206, 206, 206));
-    border: 3px solid black;
-    border-radius: 20px;
-    margin-left: 10%;
-    margin-right: 10%;
-    padding: 2%;
-    transition: border 2.5s ease-out;
-    max-width: 35%;
-}
-
 /*Style qui s'applique au niveau de l'image*/
 .presentation {
     text-align: center;
@@ -60,8 +46,8 @@
 .resultat {
     margin: 1%;
 }
-/*Style qui s'applique aux buttons*/
 
+/*Style qui s'applique aux buttons*/
 .bouton {
     display: flex;
     flex-direction: row;

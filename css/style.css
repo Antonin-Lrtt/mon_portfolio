@@ -28,14 +28,12 @@
     margin-left: 10%;
     margin-right: 10%;
     padding: 2%;
-    transform: scale(0.8);
-    transition: border 2.5s ease-out, transform 0.5s ease;
+    transition: border 2.5s ease-out;
 }
 
 .blocs:hover{
     border: 3px solid rgb(206, 206, 206);
-    transform: scale(1);
-    transition: border 1.25s ease-out, transform 0.25s ease;
+    transition: border 1.25s ease-out;
 }
 
 /*Style qui s'applique sur la sélection des pages*/
@@ -67,7 +65,7 @@
     color:  white;
     font-size: 128%;
     cursor: pointer;
-    background-image: linear-gradient(red, white);
+    background-image: linear-gradient(rgb(206, 206, 206), rgb(206, 206, 206));
     background-size: 0% 0.1em;
     background-position-y: 100%;
     background-position-x: 50%;
@@ -77,15 +75,15 @@
 
 .links a:hover{
     background-size: 100% 0.15em;
-    background-image: linear-gradient(red, red);
-    color: red;
+    background-image: linear-gradient(rgb(206, 206, 206), rgb(206, 206, 206));
+    color: whitesmoke;
     transition: color 1s ease, background 0.75s ease;
 }
 
 .links a:active {
-    color: darkred;
-    background-image: linear-gradient(darkred, darkred);
-    transition: color 1s ease, backgraound 0.75s ease;
+    color: grey;
+    background-size: 0% 0.1em;
+    transition: color 1s ease, background 0.75s ease;
 }
     
 
@@ -95,14 +93,12 @@
         border: 3px solid black;
         border-radius: 20px;
         padding: 2%;
-        transform: scale(1);
-        transition: border 2.5s ease-out, transform 0.5s ease;
+        transition: border 2.5s ease-out;
     }
 
     .blocs:hover{
         border: 3px solid rgb(206, 206, 206);
-        transform: scale(1.1);
-        transition: border 1.25s ease-out, transform 0.25s ease;
+        transition: border 1.25s ease-out;
 }
 
 
@@ -114,7 +110,6 @@
         border: 3px solid black;
         border-radius: 20px;
         padding: 2%;
-        transform: scale(0.8);
-        transition: border 2.5s ease-out, transform 0.5s ease;
+        transition: border 2.5s ease-out;
     }
 }

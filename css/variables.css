@@ -26,13 +26,10 @@
 
 .site-content {
     display: flex;
-    height: auto;
-    width: auto;
+    width: 100%;
     flex-direction: column;
     justify-content: space-between;
     margin-top: 2.5%;
-    margin-left: 10%;
-    margin-right: 10%;
     margin-bottom: 10%;
 }
 
@@ -96,6 +93,7 @@ body {
     background-image: linear-gradient(rgb(68,68,68 ),rgb(237, 237, 237), rgb(68,68,68));
     position: relative;
 }
+
 @media (min-width: 1201px) {
     .site-top {
         height: 5%;
