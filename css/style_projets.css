@@ -77,13 +77,13 @@
     .site-content {
         margin-top: 2%;
         height: 30%;
-        margin-bottom: 12%;
+        margin-bottom: 15%;
         margin-left: 0;
         margin-right: 0;
     }
 
     .site-bottom {
-        height: 6%;
+        height: 9%;
     }
 }
 
@@ -93,7 +93,7 @@
     }
 
     .site-content {
-        margin-top: 10%;
+        margin-top: 2%;
         height: 30%;
         margin-bottom: 12%;
         margin-left: 0;
@@ -101,7 +101,7 @@
     }
 
     .site-bottom {
-        height: 6%;
+        height: 10%;
     }
 }
 
@@ -111,15 +111,15 @@
     }
 
     .site-content {
-        margin-top: 10%;
+        margin-top: 2%;
         height: 30%;
-        margin-bottom: 10%;
+        margin-bottom: 16%;
         margin-left: 0;
         margin-right: 0;
     }
 
     .site-bottom {
-        height: 6%;
+        height: 10%;
     }
 }
 
@@ -129,14 +129,14 @@
     }
 
     .site-content {
-        margin-top: 5%;
+        margin-top: 2%;
         height: 30%;
-        margin-bottom: 20%;
+        margin-bottom: 30%;
         margin-left: 0;
         margin-right: 0;
     }
 
     .site-bottom {
-        height: 6%;
+        height: 10%;
     }
 }

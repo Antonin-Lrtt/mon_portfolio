@@ -188,7 +188,7 @@
     }
 
     .site-bottom {
-        height: 5%;
+        height: 4%;
     }
 }
 
@@ -205,13 +205,13 @@
     }
 
     .site-bottom {
-        height: 5%;
+        height: 4%;
     }
 }
 
 @media (min-width: 601px) and (max-width: 900px) {
     .site-top {
-        height: 10%;
+        height: 4%;
     }
 
     .site-content {
@@ -222,7 +222,7 @@
     }
 
     .site-bottom {
-        height: 5%;
+        height: 4%;
     }
 }
 
@@ -239,6 +239,6 @@
     }
 
     .site-bottom {
-        height: 5%;
+        height: 4%;
     }
 }

@@ -90,13 +90,13 @@ textarea:focus {
 
     .site-content {
         margin-top: 2%;
-        margin-bottom: 10%;
+        margin-bottom: 12%;
         margin-left: 0;
         margin-right: 0;
     }
 
     .site-bottom {
-        height: 5%;
+        height: 8%;
     }
 }
 
@@ -107,13 +107,13 @@ textarea:focus {
 
     .site-content {
         margin-top: 2%;
-        margin-bottom: 10%;
+        margin-bottom: 15%;
         margin-left: 0;
         margin-right: 0;
     }
 
     .site-bottom {
-        height: 5%;
+        height: 8%;
     }
 }
 
@@ -124,13 +124,13 @@ textarea:focus {
 
     .site-content {
         margin-top: 2%;
-        margin-bottom: 14%;
+        margin-bottom: 20%;
         margin-left: 0;
         margin-right: 0;
     }
 
     .site-bottom {
-        height: 5%;
+        height: 8%;
     }
 }
 
@@ -141,12 +141,12 @@ textarea:focus {
 
     .site-content {
         margin-top: 2%;
-        margin-bottom: 17%;
+        margin-bottom: 25%;
         margin-left: 0;
         margin-right: 0;
     }
 
     .site-bottom {
-        height: 5%;
+        height: 8%;
     }
 }
