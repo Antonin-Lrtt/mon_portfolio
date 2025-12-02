@@ -71,7 +71,7 @@
 }
 
 .immaculee p {
-    padding-left: 1%;
+    padding: 1%;
     font-size: x-large;
     background-color: rgb(230, 230, 230);
     border: 2px solid black;
@@ -99,7 +99,7 @@
 }
 
 .college p {
-    padding-left: 1%;
+    padding: 1%;
     font-size: x-large;
     background-color: rgb(230, 230, 230);
     border: 2px solid black;
@@ -129,7 +129,7 @@
 }
 
 .lycee p {
-    padding-left: 1%;
+    padding: 1%;
     font-size: x-large;
     background-color: rgb(230, 230, 230);
     border: 2px solid black;
@@ -159,7 +159,7 @@
 }
 
 .ulco p {
-    padding-left: 1%;
+    padding: 1%;
     font-size: x-large;
     background-color: rgb(230, 230, 230);
     border: 2px solid black;
