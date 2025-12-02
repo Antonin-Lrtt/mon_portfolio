@@ -51,14 +51,14 @@
 .bouton {
     display: flex;
     flex-direction: row;
-    gap: 1%;
+    gap: 2%;
 }
 
 button {
     border-radius: 10px;
     padding: 1%;
     background-color: rgb(120, 120, 120);
-    transition: background-color 1s ease;
+    transition: background-color 1s ease, transform 0.5s ease;
 }
 
 button a {
@@ -68,7 +68,8 @@ button a {
 
 button:hover {
     background-color: rgb(190, 190, 190);
-    transition: background-color 0.5s ease;
+    transform: scale(1.2);
+    transition: background-color 0.5s ease, transform 0.25s ease;
 
 }
 
@@ -77,13 +78,17 @@ button a:hover {
     transition: color 0.25s ease;
 }
 
+.blocs {
+    max-width: 500px;
+}
+
 @media (min-width: 1201px) {
     .site-top {
         height: 10%;
     }
 
     .site-content {
-        margin-top: 10%;
+        margin-top: 2%;
         height: 30%;
         margin-bottom: 10%;
         margin-left: 0;

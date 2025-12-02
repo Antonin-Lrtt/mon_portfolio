@@ -84,8 +84,7 @@
     color: grey;
     background-size: 0% 0.1em;
     transition: color 1s ease, background 0.75s ease;
-}
-    
+}    
 
 @media (min-width: 601px) and (max-width: 900px) {
     .blocs {

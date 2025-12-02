@@ -56,12 +56,12 @@
 }
 
 .site-bottom a:hover {
-    color: red;
+    color: whitesmoke;
     transition: color 1s ease;
 }
 
 .site-bottom a:active {
-    color: darkred;
+    color: gray;
     transition: color 1s ease;
 }
 

@@ -61,15 +61,23 @@
     background-color: white;
 }
 
+.blocs {
+    transform: scale(0.8);
+}
+
+.blocs:hover {
+    transform: scale(1);
+}
+
 @media (min-width: 1201px) {
     .site-top {
         height: 10%;
     }
 
     .site-content {
-        margin-top: 10%;
+        margin-top: 2%;
         height: 30%;
-        margin-bottom: 15%;
+        margin-bottom: 12%;
         margin-left: 0;
         margin-right: 0;
     }
@@ -87,7 +95,7 @@
     .site-content {
         margin-top: 10%;
         height: 30%;
-        margin-bottom: 15%;
+        margin-bottom: 12%;
         margin-left: 0;
         margin-right: 0;
     }
@@ -105,7 +113,7 @@
     .site-content {
         margin-top: 10%;
         height: 30%;
-        margin-bottom: 15%;
+        margin-bottom: 10%;
         margin-left: 0;
         margin-right: 0;
     }
@@ -123,7 +131,7 @@
     .site-content {
         margin-top: 5%;
         height: 30%;
-        margin-bottom: 35%;
+        margin-bottom: 20%;
         margin-left: 0;
         margin-right: 0;
     }
