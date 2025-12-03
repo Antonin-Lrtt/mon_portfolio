@@ -1,3 +1,28 @@
+/*Style qui s'applique sur body */
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: var(--fond-body);
+    position: relative;
+}
+
+/*Style qui s'applique à toute la page*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Futura;
+}
+
+/*Style qui s'applique au header*/
+
+.site-top {  
+    border-bottom: 3px solid black;
+    background-image: var(--fond-header);
+}
+
+
 /*Style qui s'applique au caractères*/
 .texte {
     font-size: x-large;
@@ -20,24 +45,15 @@
     padding-left: 10%;
 }
 
-/*Style qui s'applique sur les blocs*/
-.blocs {
-    background-image: linear-gradient(rgb(206, 206, 206),rgb(206, 206, 206));
-    border: 3px solid black;
-    border-radius: 20px;
-    margin-left: 10%;
-    margin-right: 10%;
+/*Style qui s'applique sur la mise en tête*/
+.site-top h1 {
+    size: 25vw;
+    text-align: center;
+    color: var(--couleur-titre);
     padding: 2%;
-    transition: border 2.5s ease-out;
-}
-
-.blocs:hover{
-    border: 3px solid rgb(206, 206, 206);
-    transition: border 1.25s ease-out;
 }
 
 /*Style qui s'applique sur la sélection des pages*/
-
 .links {
     width: 97%;
 }
@@ -64,7 +80,7 @@
     text-decoration: none;
     color:  white;
     font-size: 128%;
-    background-image: linear-gradient(rgb(206, 206, 206), rgb(206, 206, 206));
+    background-image: var(--fond-blocs);
     background-size: 0% 0.1em;
     background-position-y: 100%;
     background-position-x: 50%;
@@ -74,7 +90,6 @@
 
 .links a:hover{
     background-size: 100% 0.15em;
-    background-image: linear-gradient(rgb(206, 206, 206), rgb(206, 206, 206));
     color: whitesmoke;
     transition: color 1s ease, background 0.75s ease;
 }
@@ -83,31 +98,94 @@
     color: grey;
     background-size: 0% 0.1em;
     transition: color 1s ease, background 0.75s ease;
-}    
+}
+
+/*Style qui s'applique au main*/
+.site-content {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 2.5%;
+    margin-bottom: 10%;
+}
+
+/*Style qui s'applique sur les blocs*/
+.blocs {
+    background-image: var(--fond-blocs);
+    border: 3px solid black;
+    border-radius: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 2%;
+    transition: border 2.5s ease-out;
+}
+
+.blocs:hover{
+    border: 3px solid rgb(206, 206, 206);
+    transition: border 1.25s ease-out;
+}
+
+
+/*Style qui s'applique au footer*/
+.site-bottom {
+    display: table-row;
+    margin-top: 5%;
+    position: absolute; bottom: 0; left: 0; right: 0;
+    background-image: var(--fond-footer);
+    padding: 1%;
+    border-top: 3px solid black;
+}
+
+.site-bottom p{
+    color: white;
+    text-align: center;
+}
+
+.site-bottom a {
+    color: white;
+    transition: color 2s ease;
+}
+
+.site-bottom a:hover {
+    color: whitesmoke;
+    transition: color 1s ease;
+}
+
+.site-bottom a:active {
+    color: gray;
+    transition: color 1s ease;
+}
+
+.site-bottom div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.site-bottom i {
+    padding-right: 3.5vw;
+    font-size: 400%;
+    border-radius: 10px;
+    margin: 5%;
+    margin-bottom: 10%;
+}
+
+.site-bottom i:hover {
+    transform: scale(1.2);
+}
 
 @media (min-width: 601px) and (max-width: 900px) {
     .blocs {
-        background-image: linear-gradient(rgb(206, 206, 206),rgb(206, 206, 206));
-        border: 3px solid black;
-        border-radius: 20px;
-        padding: 2%;
-        transition: border 2.5s ease-out;
+        margin-left: 5%;
+        margin-right: 5%;
     }
-
-    .blocs:hover{
-        border: 3px solid rgb(206, 206, 206);
-        transition: border 1.25s ease-out;
 }
 
-
-}
 
 @media (max-width: 600px) {
     .blocs {
-        background-image: linear-gradient(rgb(206, 206, 206),rgb(206, 206, 206));
-        border: 3px solid black;
-        border-radius: 20px;
-        padding: 2%;
-        transition: border 2.5s ease-out;
+        margin-left: 3%;
+        margin-right: 3%;
     }
 }

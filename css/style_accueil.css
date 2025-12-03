@@ -1,22 +1,7 @@
-/*Style qui s'applique au bloc inrtoductif de la page*/
-.bloc_intro {
-    background-color: rgb(206, 206, 206);
-    border: 3px solid black;
-    border-radius: 20px;
-    padding: 1.5%;
-    transition: border 2.5s ease-out;
-    margin: 1%;
-}
-
-.bloc_intro:hover {
-    border: 3px solid rgb(206, 206, 206);
-    transition: border 1.25s ease-out;
-}
-
 .intro {
     text-align: center;
     color: black;
-    background-image: linear-gradient(rgb(200, 200, 200), rgb(150, 150, 150));
+    background-image: var(--fond-intro);
     border-radius: 10px;
     border: 1px solid rgb(140, 140, 140);
     padding: 1%;
@@ -46,7 +31,7 @@
     color: black;
     transition: color 1.5s ease;
     color: black;
-    background-image: linear-gradient(rgb(200, 200, 200), rgb(150, 150, 150));
+    background-image: var(--fond-intro);
     border-radius: 10px;
     border: 1px solid rgb(140, 140, 140);
 }
@@ -88,19 +73,19 @@
 
 @media (min-width: 901px) and (max-width: 1200px) {
     .site-top {
-        height: 10%;
+        height: 7%;
     }
 
     .site-content {
         margin-top: 2%;
         height: 30%;
-        margin-bottom: 12%;
+        margin-bottom: 15%;
         margin-left: 0;
         margin-right: 0;
     }
 
     .site-bottom {
-        height: 10%;
+        height: 7%;
     }
 }
 
@@ -112,13 +97,13 @@
     .site-content {
         margin-top: 2%;
         height: 30%;
-        margin-bottom: 16%;
+        margin-bottom: 20%;
         margin-left: 0;
         margin-right: 0;
     }
 
     .site-bottom {
-        height: 10%;
+        height: 7%;
     }
 }
 
@@ -136,6 +121,6 @@
     }
 
     .site-bottom {
-        height: 10%;
+        height: 7%;
     }
 }
